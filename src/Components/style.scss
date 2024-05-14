@@ -156,13 +156,15 @@ body {
 .numbers {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
-    gap: 3px; 
+    gap: 2px; 
     margin-top: 10px;
     margin-bottom: 20px;
 
-    // .AC:hover {
-    //     background-color: red;
-    // }
+    .AC {
+        display: grid;
+        grid-column: 1/3;
+        padding-top: 15px;
+    }
     
 
     button {
@@ -174,10 +176,26 @@ body {
         outline: none; 
         background-color: #f0f0f0; 
         transition: background-color 0.3s;
+        margin: 1px;
 
         &:hover {
             background-color: #ccc;
         }
+    }
+
+    .equal {
+        display: grid;
+        grid-column: 4/4;
+        grid-row-start: 4;
+        grid-row-end: 6;
+        height: 7.8rem;
+        padding-top: 60%;
+    }
+    .backSpace {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        padding-top: 5px;
     }
     
 
