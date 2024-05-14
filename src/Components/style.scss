@@ -13,7 +13,7 @@ body {
     flex-direction: column;
 
     .Title {
-        border: 2px solid black;
+        // border: 2px solid black;
 
     }
 }
@@ -22,7 +22,7 @@ body {
 .calculator-Body {
     border: 2px solid black;
     width: fit-content;
-    height: 95%;
+    height: 98%;
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.879);
     color: white;
@@ -122,6 +122,9 @@ body {
                     color: black;
                     font-weight: 1000;
                     font-size: 7px;
+                    margin-bottom: 6px;
+                    margin-left: 2px;
+
                 }
             }
 
@@ -156,9 +159,10 @@ body {
     margin-top: 10px;
     margin-bottom: 20px;
 
-    .AC:hover {
-        background-color: red;
-    }
+    // .AC:hover {
+    //     background-color: red;
+    // }
+    
 
     button {
         height: 60px;

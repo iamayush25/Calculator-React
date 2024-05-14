@@ -19,7 +19,7 @@ function Keys() {
   }
   return (
     <div className="main-container">
-      {/* <h1 className="Title">Calculator</h1> */}
+      <h1 className="Title">Calculator</h1>
       <div className="calculator-Body">
         <div className="notification-bar">
           <div className="time">
