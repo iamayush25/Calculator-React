@@ -22,11 +22,12 @@ body {
 .calculator-Body {
     border: 2px solid black;
     width: fit-content;
-    height: 98%;
+    height: 100%;
     border-radius: 20px;
     background-color: rgba(0, 0, 0, 0.879);
     color: white;
     box-shadow: 1px 1px 12px 2px black;
+    width: 315px;
 
     .notification-bar {
         // border: 2px solid black;
@@ -141,7 +142,7 @@ body {
         input{
             display: flex;
             flex-direction: row;
-            width: 280px;
+            width: 315px;
             height: 2.3rem;
             text-align: end;
             font-size: xx-large;
