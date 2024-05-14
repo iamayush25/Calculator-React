@@ -50,12 +50,11 @@ function Keys() {
         <div className="numbers">
           <button className="AC" onClick={() => calculate("AC")}>AC</button>
           <button onClick={() => calculate("+")}>+</button>
-          <button onClick={() => calculate("%")}>%</button>
           <button onClick={() => calculate("/")}>/</button>
           <button onClick={() => calculate("7")}>7</button>
           <button onClick={() => calculate("8")}>8</button>
           <button onClick={() => calculate("9")}>9</button>
-          <button onClick={() => calculate("x")}>X</button>
+          <button onClick={() => calculate("*")}>×</button>
           <button onClick={() => calculate("4")}>4</button>
           <button onClick={() => calculate("5")}>5</button>
           <button onClick={() => calculate("6")}>6</button>
@@ -64,7 +63,7 @@ function Keys() {
           <button onClick={() => calculate("2")}>2</button>
           <button onClick={() => calculate("3")}>3</button>
           <button className="equal" onClick={() => calculate("=")}>=</button>
-          <button onClick={() => calculate("Del")}>Del</button>
+          <button onClick={() => calculate("Del")}><img className='backSpace' id="" src={require('./Images/Backspace-logo.png')}/></button>
           <button onClick={() => calculate("0")}>0</button>
           <button onClick={() => calculate(".")}>.</button>
         </div>
